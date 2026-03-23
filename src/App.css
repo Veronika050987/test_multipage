@@ -1,5 +1,6 @@
 .App {
   text-align: center;
+   padding: 20px;
 }
 
 .App-logo {
@@ -35,4 +36,22 @@
   to {
     transform: rotate(360deg);
   }
+}
+nav {
+  margin-bottom: 30px;
+  font-size: 1.2rem;
+}
+
+nav a {
+  margin: 0 10px;
+  text-decoration: none;
+  color: blue;
+}
+.justified-text {
+  text-align: justify;    /* Выравнивание по ширине */
+  text-indent: 40px;      /* Отступ первой строки (абзац) */
+  line-height: 1.6;       /* Увеличение межстрочного интервала для читабельности */
+  margin: 20px auto;      /* Центрирование блока */
+  max-width: 600px;       /* Ограничение ширины текста для красоты */
+  padding: 0 10px;        /* Немного отступа от краев экрана на мобильных */
 }

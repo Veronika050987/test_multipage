@@ -1,15 +1,15 @@
 import React from 'react';
-import eagle from '../assets/eagle.jpg';
+import code from '../assets/code.jpg';
 
 const Page3 = () => {
   return (
     <div>
-      <p className="justified-text">Увидев печать ангельской почты, орёл понял, что дело очень срочное. Уточнив подробности у гномов, он взял, аккуратно свёрток в свои цепкие когти и плавно воспарил над землёй. Когда орёл поднимался над вершиной, земля озарилась первыми лучами восходящего солнца. "Надо спешить!" - подумал орёл и полетел быстрее.</p>
-      <img src={eagle} alt="Page 3" style={{ width: '300px' }} />
-      <p className="justified-text">В окно светило утреннее зимнее солнце. Искрился снег. Птицы игриво пели за окном. Девочке было грустно, но она решила выйти погулять, а заодно узнать, какие желания исполнились у её друзей.</p>
-      <p className="justified-text">Девочка открыла дверь и не поверила своим глазам. Там лежал свёрток. На как? Ничего же не было...</p>
-       <p className="justified-text">Девочка схватила свёрток и быстро сдёрнула синюю ленточку, которая и скрывала весь секрет. "Мама, мама, беги сюда!". На зов прибежали родители. Они были так рады и счастливы, потому что из свёртка на них смотрел маленький щенок.</p>
-     <p className="justified-text">"Щенок! У меня есть щенок!" - кричала девочка. И все окрестные дома собрались посмотреть на подарок. "Вот видишь, мечты сбываются!" - ласково сказала мама. А в доме в этот момент стало теплее и уютнее. Даже камин стал потрескивать звонче.</p>
+      <p className="justified-text">Poetry done by masters gives some understanding at any level of reading. As for programming, it is also necessary to read great code made by masters. More you read, easier it will be to read code made by everyone. Code is documentation as well and the source of truth. </p>
+      <img src={code} alt="Page 3" style={{ width: '260px' }} />
+      <p className="justified-text">Experience is important from a lingual point of view. Both programming and poetry need a language, so how familiar one is with the language determines how capable the outcome is. 
+</p>
+      <p className="justified-text">Poem is a collection words of the literal language, a program is a collection of keywords of the programming language. The quality of both things depends on language experience and creativity. This is a strong ability to shape something new or different from something basic and naive. 
+</p>
     </div>
   );
 };

@@ -1,16 +1,19 @@
 import React from 'react';
-import night from '../assets/night.jpg';
+import poetry from '../assets/poetry.jpg';
 
 const Page1 = () => {
   return (
     <div>
-      <h1>О подарках</h1>
-      <img src={night} alt="Page 1" style={{ width: '300px', height:'200px'}} />
-      <p className="justified-text">Ночь тихо опускалась на землю. Маленькие жемчужины звёзд одна за другой зажигались на бархате неба. Весёлый месяц шутливо подмигивал им. Ветер шептал заснеженными ветвями деревьев. Дрова в каминах домов звонко и уютно потрескивали. Это была особенная ночь. Сегодня сегодня исполнялись желания. Если ты о чём-то сильно мечтал, ты мог получить это: котёнок, игра, интересная книга...</p>
-      <p className="justified-text">И вот настал долгожланный вечер. То и дело открывались двери, и раздавались радостные возгласы от полученных подарков.</p>
-      <p className="justified-text">Но только в доме семьи Н поселилась грусть: ничего не стояло у двери...</p>
-      <p className="justified-text">В тот момент по лесу шёл эльф и неожиданно для себя среди заснеженной поляны увидел небольшой свёрток со штампом ангельской почты - два золотых крыла и ключ - и надписью: "Осторожно! Хрупко! Доставить в семью Н!".</p> 
-      <p>Эльф очень хорошо знал эту семью и решил доставить свёрток адресату.</p>
+      <h1>Programming is like poetry</h1>
+      <h3>(Nika 2026) </h3>
+      <p className="justified-text">Good code is pure poetry, the elegant exposition of the perfect solution for a certain given problem.</p>
+      <p className="justified-text">Bad code is an unbreakable nightmare, unfit in shape and confused in purpose.
+</p>
+      <img src={poetry} alt="Page 1" style={{ width: '300px', height:'300px'}} />
+      <p className="justified-text">A program is a poem that you write for two audiences: the computer and every programmer who comes after you. 
+</p>
+      <p className="justified-text">A program needs to be in very strict agreement with the rules and syntax of the programming language. A poem should correspond the most fundamental grammatical rules in order to have a desired effect on the reader.
+</p> 
     </div>
   );
 };

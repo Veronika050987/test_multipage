@@ -10,19 +10,18 @@ function App() {
   return (
     <Router>
       <div className="App">
-        <nav>
-          <Link to="/">Страница 1</Link> | {' '}
-          <Link to="/page2">Страница 2</Link> | {' '}
-          <Link to="/page3">Страница 3</Link> | {' '}
-          <Link to="/page4">Страница 4</Link>
-        </nav>
-
         <Routes>
           <Route path="/" element={<Page1 />} />
           <Route path="/page2" element={<Page2 />} />
           <Route path="/page3" element={<Page3 />} />
           <Route path="/page4" element={<Page4 />} />
         </Routes>
+        <nav>
+          <Link to="/">Page 1</Link> | {' '}
+          <Link to="/page2">Page 2</Link> | {' '}
+          <Link to="/page3">Page 3</Link> | {' '}
+          <Link to="/page4">Page 4</Link>
+        </nav>
       </div>
     </Router>
   );

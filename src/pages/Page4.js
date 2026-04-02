@@ -1,14 +1,14 @@
 import React from 'react';
-import gifts from '../assets/gifts.jpg';
+import poetry2 from '../assets/poetry2.jpg';
 
 const Page4 = () => {
   return (
     <div>
-      <p className="justified-text">Эльф ужинал со своей женой и детьми, с которыми поделился историей про свёрток. И все они очень радовались, что папа смог кому-то помочь, особенно в такой день.</p>
-         <p className="justified-text">Смеялись гномы: они никогда ещё не катались по льду со свёртками в руках.</p>
-         <p className="justified-text">На небе парил орёл, наблюдая за тем, как девочка хвастается подарком перед друзьями.</p>
-         <p className="justified-text">И каждый из них был очень счастлив, потому что видел, как счастлива девочка, получившая тот свёрток. Счастлив настолько, насколько можно быть счастливым, когда сам кому-то приносишь подарок.</p>
-      <img src={gifts} alt="Page 1" style={{ width: '300px' }} />
+      <p className="justified-text">Ambiguity is an accepted and celebrated part of poetry. Programming has a strong despise for ambiguity. A computer program relies on logic and the predictability of how the machine will react for achieving its goals. A poem makes use of rhetorical statements and questions and lets the reader draw their own meaning independent of one another.  A computer code always means the same thing to a computer. There is no alternate interpretation, because computers have predictable behavior (or their unpredictability is nothing compared to humans). Two humans can conceive different lesson from a poem, but computer programs mean exactly what they state.
+</p>
+      <img src={poetry2} alt="Page 4" style={{ width: '340px' }} />
+         <p className="justified-text">Programming is a poetry, but at the same time they are indeed fundamentally different. 
+</p>
     </div>
   );
 };
